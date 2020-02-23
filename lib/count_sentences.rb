@@ -4,11 +4,7 @@ class String
 
   # helper method for below methods
   def sentence_type?(punctuation)
-    if self[-1] == punctuation
-      return true 
-    else 
-      return false 
-    end 
+    self[-1] == punctuation ? true : false 
   end 
 
   def sentence?
